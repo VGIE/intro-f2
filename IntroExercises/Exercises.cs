@@ -63,7 +63,13 @@ namespace IntroExercises
                  return 0;
             int count = 0;
             for(int i = startIndex; i < endIndex; i++)
-            return 0;
+            {
+                if(array[i]== value)
+                count ++;
+
+            }
+
+            return count;
         }
 
         //TODO #5
