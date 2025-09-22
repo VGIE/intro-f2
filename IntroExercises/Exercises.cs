@@ -44,7 +44,7 @@ namespace IntroExercises
             if(endIndex<startIndex||startIndex<0||endIndex>array.Length-1)
                  return -1;
 
-            for(int i=startIndex;i<endIndex;i++)
+            for(int i=startIndex;i<=endIndex;i++)
             {
 
                if(array[i]==value)
@@ -62,7 +62,7 @@ namespace IntroExercises
             if(endIndex<startIndex||startIndex<0||endIndex>array.Length-1)
                  return 0;
             int count = 0;
-            for(int i = startIndex; i < endIndex; i++)
+            for(int i = startIndex; i <= endIndex; i++)
             {
                 if(array[i]== value)
                 count ++;
